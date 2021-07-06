@@ -71,6 +71,9 @@ p{
     padding: 100px 0;
     text-align: center;
 }
+.my-recipies h2{
+    margin-bottom: 20px;
+}
 .recipies{
     display: flex;
     padding:50px 100px;
@@ -92,4 +95,29 @@ p{
 }
 .recipy-item p{
     color: #222;
+}
+
+                /* Real Clients */
+
+.real-client-stories h2{
+    text-align: center;
+}
+.real-client{
+    display: flex;
+    padding: 50px 100px 50px;
+}
+.client{
+    width: 30%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.client img{
+    width: 100%;
+    border-radius: 50%;
+}
+.client p{
+    margin: 20px 0;
+}
+.client h5{
+    text-align: center;
 }
