@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -11,6 +12,10 @@ body{
 h1{
     font-size: 50px;
     margin-bottom: 15px;
+}
+h2{
+    font-size:30px;
+    color: #747372;
 }
 p{
     color: #828282;
@@ -40,4 +45,51 @@ p{
 }
 .healthy-food p{
     margin-bottom: 30px;
+}
+
+            /* About Section */
+
+.about{
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.about img{
+    width:100%;
+}
+.about p{
+    color: #000;
+    margin: 25px 0 50px 0;
+}
+.about-me{
+    padding-top: 160px;
+}
+
+                /* Recipies */
+
+.my-recipies{
+    padding: 100px 0;
+    text-align: center;
+}
+.recipies{
+    display: flex;
+    padding:50px 100px;
+}
+.recipy-item{
+    width:27%;
+    margin-left: 3%;
+    margin-right: 3%; 
+    padding: 20px;
+    text-align: left;
+    box-shadow: gray 10px 10px 30px;
+}
+.recipy-item img{
+    width:100%;
+}
+.recipy-item h3{
+    font-size: 25px;
+    margin: 20px 0 10px 0;
+}
+.recipy-item p{
+    color: #222;
 }
