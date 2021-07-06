@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+            /* Reusable */
+
+h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+p{
+    color: #828282;
+    font-size: 18px;
+    line-height: 32px;
+}
+.btn{
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(#FB8F48, #FB8F48);
+    padding: 13px 30px;
+    border-radius: 20px;
+}
+
+.healthy-food{
+    display: flex;
+}
+.half-width{
+    width:50%;
+    padding: 80px
+}
+.half-width img{
+    width:90%;
+}
+.healthy-food span{
+    color: orange;
+}
+.healthy-food p{
+    margin-bottom: 30px;
+}
